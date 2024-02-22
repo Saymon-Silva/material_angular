@@ -1,6 +1,11 @@
-<body style="background-color: aquamarine;">
-  <div>a</div>
-  <button (scroll)="null">
-    aa
-  </button>
+<body style="background-color: rgb(29, 105, 10)">
+  <button (click)="teste()">clica ai</button>
+  <div
+    [ngStyle]="{
+      'background-color': cor,
+      color: corPalavra
+    }"
+  >
+    {{ palavra }}
+  </div>
 </body>

@@ -1,0 +1,11 @@
+import { Arquivo } from "./Arquivo";
+import { Canal } from "./Canal";
+import { Comentario } from "./comentario";
+
+export class Video {
+  is: number = 0;
+  nome:String = "";
+  criador:Canal = new Canal;
+  comentarios:Array<Comentario> = new Array;
+  arquivo:Arquivo = new Arquivo
+}

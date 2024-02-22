@@ -1,0 +1,8 @@
+import { Canal } from "./Canal";
+
+export class Comentario {
+  id: number = 0;
+  mensagem: String = "";
+  curtidos: Array<Canal> = new Array();
+  visivel: boolean = true;
+}

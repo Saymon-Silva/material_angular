@@ -1,0 +1,9 @@
+import { Canal } from "./Canal";
+
+export class Usuario {
+  id: number;
+  nome: String = "";
+  sexo: String = "";
+  idade: number = 0;
+  canais: Array<Canal> = new Array();
+}

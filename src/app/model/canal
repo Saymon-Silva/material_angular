@@ -1,0 +1,13 @@
+import { Usuario } from "./usuario";
+import { Video } from "./video";
+
+export class Canal {
+  id: number = 0;
+  nome: String = "";
+  criador: Usuario = new Usuario();
+  inscritos: Array<Usuario> = new Array();
+  inscricoes: Array<Usuario> = new Array();
+  curtidos: Array<Video> = new Array();
+  postados: Array<Video> = new Array();
+  historico: Array<Video> = new Array();
+}

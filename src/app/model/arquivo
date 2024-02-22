@@ -1,0 +1,8 @@
+export class Arquivo {
+  id: number = 0;
+  originalFileName: String = "";
+  contentType: String = "";
+  bytes: ArrayBuffer[] = new Array();
+  empty: boolean = true;
+  size: number = 0;
+}
